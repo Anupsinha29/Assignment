@@ -31,8 +31,6 @@ public class PageObjectModel {
 
 	public void selectTheCityName(String replaceData) {
 		WebElement city = convertDynamicXpathToWebElement(cityName, replaceData);
-		//Actions act=new Actions(driver);
-		//act.moveToElement(searchBox);
 		city.click();
 	}
 	public void enterCityName(String city)
